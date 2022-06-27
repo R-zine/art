@@ -1,0 +1,175 @@
+.checkout--layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+.checkout--title--bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.checkout--title {
+  text-align: left;
+  margin: 0;
+  padding: 30px 0 0 70px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.mdl-card {
+  height: max-content;
+  margin-left: 0;
+  margin-right: 0;
+}
+.mdl-stepper-step {
+  margin-left: 7%;
+  margin-right: 0;
+}
+.mdl-stepper-horizontal-alternative {
+  display: flex;
+  justify-self: flex-end;
+}
+.mdl-stepper-bar-left {
+  display: none;
+}
+.checkout--toolbar {
+  height: 200px;
+}
+
+.address--form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  text-align: center;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.address--form h6 {
+  height: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address--form--inputs {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-rows: repeat(auto-fit, 50px);
+}
+
+.MuiPopover-paper {
+  width: min-content;
+  height: fit-content;
+}
+
+.MuiList-root {
+  height: max-content;
+}
+
+.address--form--btns {
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.back--to--cart {
+  width: 200px;
+  height: 30px;
+}
+
+.address--form--next {
+  width: fit-content;
+  height: 30px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}
+.review h6 {
+  height: fit-content;
+}
+
+.review--container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.review--listitem {
+  height: fit-content;
+  border-bottom: 1px solid black !important;
+}
+
+.MuiListItem-root {
+  text-align: center !important;
+}
+.MuiListItemText-root {
+  text-align: left !important;
+}
+
+.payment--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0px;
+  height: 30%;
+}
+.payment--form h6 {
+  height: fit-content;
+  padding-bottom: 5%;
+}
+
+.payment--form form {
+  width: 50%;
+  height: 60px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.payment--form div {
+  height: fit-content;
+}
+
+.error--checkout {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 60%;
+}
+
+.MuiButton-outlined {
+  max-width: 250px !important;
+}

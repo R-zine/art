@@ -1,0 +1,128 @@
+.cart--page,
+.no--cart--page {
+  display: flex;
+  width: 90%;
+  height: auto;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 8%;
+  margin-left: 5%;
+}
+.cart--items {
+  display: grid;
+
+  height: fit-content;
+  grid-template-rows: repeat(auto-fit, 80px);
+  gap: 5px;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid grey;
+  margin: 10px 0;
+}
+.cart--item {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  grid-template-columns: 80px 2fr 1fr 50px;
+  grid-template-rows: 80px;
+  gap: 15px;
+  border: 1px solid white;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(230, 230, 230, 0.795);
+  border: 1px solid rgb(195, 194, 194);
+}
+.cart--image {
+  width: 80px;
+  object-fit: scale-down;
+  padding: 10px;
+}
+.cart--item--name {
+  display: flex;
+  font-size: 2.5vmin;
+  justify-content: start;
+  align-items: center;
+}
+.cart--single--price {
+  display: flex;
+  font-size: 2.5vmin;
+  justify-content: end;
+  align-items: center;
+}
+.remove--item {
+  width: 30px;
+  height: 30px;
+  color: rgb(170, 72, 72);
+  background-color: #fff;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+}
+.remove--item:hover {
+  background-color: grey;
+  border: 1.5px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+.subtotal {
+  display: flex;
+  font-size: 2.5vmin;
+  align-items: center;
+  justify-content: end;
+  padding-right: 65px;
+  padding-bottom: 5px;
+  color: rgb(170, 72, 72);
+}
+.btn-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 5px 0;
+}
+.empty-btn,
+.back-btn {
+  width: 50%;
+  background-color: rgba(84, 115, 172, 0.865);
+  color: white;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-left: auto;
+}
+.empty-btn:hover,
+.back-btn:hover {
+  background-color: rgb(232, 230, 230);
+  color: rgb(84, 115, 172);
+  transition: 0.5s;
+}
+.checkout-btn {
+  width: 50%;
+  background-color: rgba(170, 72, 72, 0.812);
+  color: white;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  float: right;
+  padding: 5px 0;
+}
+.checkout-btn:hover {
+  background-color: rgb(232, 230, 230);
+  color: rgb(170, 72, 72);
+  transition: 0.5s;
+}
+
+.no--cart--page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cart--page--noitems {
+  margin: 5%;
+}
+
+.back-btn {
+  width: 30%;
+}
